@@ -1,5 +1,3 @@
-
-
 const NewQuote = ({changed,quoteOfListT,authorOfListT}) => {  
     
     

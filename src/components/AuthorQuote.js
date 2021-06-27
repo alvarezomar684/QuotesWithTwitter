@@ -1,4 +1,3 @@
-
 const AuthorQuotes = ({author}) => {
     return(
         <div className="quotes-style">

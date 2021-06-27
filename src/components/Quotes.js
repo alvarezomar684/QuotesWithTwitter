@@ -1,5 +1,4 @@
-
-const Quotes = ({quote, OnChangeQuote}) => {
+const Quotes = ({quote}) => {
     return(
         <div className="quotes-style">
             <p>"{quote}"</p>           
