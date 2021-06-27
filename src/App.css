@@ -1,0 +1,78 @@
+
+
+.App-header {  
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.container-style {  
+  border: 2px solid white;
+  background-color: #01937C;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #FAF1E6;  
+  align-items: center;
+  height: auto;
+  max-width: 600px;
+}
+
+.quotes-style > p {  
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+}
+
+.quotes-style > h4 {
+  color: #B6C867;
+  text-align: right;  
+  font-style: italic;  
+}
+
+.buttons-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  width: 100%;
+}
+
+.buttons-style > button {
+  background-color: #FFC074;
+  color: #01937C;
+  font-size: 1.2rem;
+  padding: 7px;
+  width: auto;
+  border-radius: 10px;    
+  margin-bottom: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  box-sizing: content-box;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 28px;
+  margin-left: 30px;
+}
+
+.twitter-share-button {  
+  text-decoration: none;
+  background-color: #FFC074;
+  color: #01937C;
+  font-size: 1.2rem;
+  padding: 7px;
+  width: auto;
+  border-radius: 10px;    
+  margin-bottom: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  box-sizing: content-box;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
